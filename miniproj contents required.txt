@@ -1,0 +1,93 @@
+For a Blood Donation Management System, the UI requirements should cover functionalities for various users like donors, recipients, administrators, and healthcare providers. Here are the key UI fields and components for each module:
+
+1. User Registration & Login
+Registration Form:
+Full Name
+Age
+Gender
+Blood Group (Dropdown with options like A+, A-, B+, etc.)
+Contact Number
+Email Address
+Address (with City, State, ZIP)
+ID Proof Upload (Aadhar, Driver’s License, etc.)
+Username
+Password
+Confirm Password
+
+Login Form:
+Username/Email
+Password
+Forgot Password:
+Email/Phone number for verification
+
+2. Donor Module
+Donor Dashboard:
+Upcoming Appointments
+Donation History
+Donation Appointment Booking:
+Select Nearest Blood Donation Center
+Select Date & Time
+Health Screening Form:
+Weight, Height, Hemoglobin level, etc.
+Medical Conditions (yes/no with details if yes)
+Last Donation Date
+Eligibility Check
+Automatic system check based on age, weight, last donation date, etc.
+
+3. Recipient Module
+Search Blood Availability:
+Required Blood Group
+Location/City Filter
+Request for Blood:
+Full Name
+Patient's Blood Group
+Contact Information
+Hospital/Clinic Location
+Required Units of Blood
+Emergency Contact
+Reason for Requirement
+Request Status:
+Status Updates (Pending, Approved, Rejected)
+Donor Details if matched
+
+4. Inventory & Blood Bank Management (Admin)
+Inventory Dashboard:
+Available Blood Units by Group
+Expiry Date Notifications
+Blood Stock Management:
+Add/Remove Blood Units
+Expiry Date Input for Each Unit
+Donation Camp Management:
+Camp Name
+Date, Time, and Venue
+Expected Number of Donors
+Appointment Management:
+View Upcoming Donor Appointments
+Reschedule/Cancel Appointments
+
+5. Notification System
+Alerts for Donors:
+Donation Due Reminders
+Appointment Confirmations
+Alerts for Recipients:
+Blood Request Status
+Availability Notifications
+Admin Alerts:
+Stock Alerts for Low Blood Units
+Blood Expiry Alerts
+
+6. Reports and Analytics (Admin)
+Donor Reports:
+Donation Frequency, Age Group Distribution
+Recipient Reports:
+Blood Requests by Blood Group, Location-Based Requests
+Inventory Reports:
+Blood Units Collected and Used per Month
+Expiry and Wastage Reports
+
+7. Contact & Support
+Contact Us Form:
+User’s Name
+Email
+Contact Number
+Message
